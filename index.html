@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid ">
+        <div class="row  justify-content-center">
+            <div class="col-md-10">
+                <header class="pt-5">
+                    <h1 class="font-weight-bolder">Bookmarker</h1>
+                    <hr class="my-3">
+                </header>
+                <section class="text-center px-4">
+                    <div class="sec-bg p-4">
+                        <h2 class="py-3">Bookmark your favorite sites
+                        </h2>
+                        <label>Site Name
+
+                        </label><br>
+                        <input class="form-control" name="bookmarkname" type="text" placeholder="Bookmark Name"
+                            id="bookMarkName" required>
+                            <input class="form-control hide my-2 text-center" id="name-valid" placeholder="Name Field is required" >
+                            <input class="form-control hide my-2 text-center" id="dublicate" placeholder="This name already exist" >
+
+                        <label>Site URL
+
+                        </label><br>
+
+                        <input class="form-control"  name="bookmarkurl" type="text" placeholder="website URL"
+                            id="bookMarkUrl" required>
+              <input class="form-control hide text-center my-2" id="url-valid" placeholder="Url Field is required" >
+
+                        <button type="submit" onclick="addmark()" class="btn btn-primary my-3">Submit</button>
+
+
+                </section>
+
+                <section class="my-3 px-4" >
+                  <div id="result"></div>
+                  
+            
+            </section>
+            <footer>
+                <hr class="my-3">
+
+                <p class="font-weight-bold text-muted">© 2019 Bookmarker Inc.</p>
+            </footer>
+
+        </div>
+    </div>
+    </div>
+    <script src="js/main_script.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

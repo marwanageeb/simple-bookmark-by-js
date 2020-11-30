@@ -1,0 +1,10 @@
+h1{color:gray;
+}
+.sec-bg{background-color: #f5f5f5;}
+
+.hide{display:none}
+.my-style{
+       background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    display:block;}
